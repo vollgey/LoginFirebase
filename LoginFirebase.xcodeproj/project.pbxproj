@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A4E311D248BD63F00841ECA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E311C248BD63F00841ECA /* SignUpViewController.swift */; };
+		7A4E311F248BD65500841ECA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E311E248BD65500841ECA /* LoginViewController.swift */; };
+		7A4E3121248BD66000841ECA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E3120248BD66000841ECA /* HomeViewController.swift */; };
+		7A4E3123248BE1D500841ECA /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E3122248BE1D500841ECA /* Utilities.swift */; };
 		7AB4D729248BD1B1004D774E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4D728248BD1B1004D774E /* AppDelegate.swift */; };
 		7AB4D72B248BD1B1004D774E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4D72A248BD1B1004D774E /* SceneDelegate.swift */; };
 		7AB4D72D248BD1B1004D774E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB4D72C248BD1B1004D774E /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A4E311C248BD63F00841ECA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7A4E311E248BD65500841ECA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7A4E3120248BD66000841ECA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7A4E3122248BE1D500841ECA /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		7AB4D725248BD1B1004D774E /* LoginFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB4D728248BD1B1004D774E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AB4D72A248BD1B1004D774E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A4E311B248BD62400841ECA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7AB4D72C248BD1B1004D774E /* ViewController.swift */,
+				7A4E311C248BD63F00841ECA /* SignUpViewController.swift */,
+				7A4E311E248BD65500841ECA /* LoginViewController.swift */,
+				7A4E3120248BD66000841ECA /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7A4E3124248BE78000841ECA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7A4E3122248BE1D500841ECA /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		7AB4D71C248BD1B1004D774E = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +85,8 @@
 			children = (
 				7AB4D728248BD1B1004D774E /* AppDelegate.swift */,
 				7AB4D72A248BD1B1004D774E /* SceneDelegate.swift */,
-				7AB4D72C248BD1B1004D774E /* ViewController.swift */,
+				7A4E3124248BE78000841ECA /* Helpers */,
+				7A4E311B248BD62400841ECA /* ViewControllers */,
 				7AB4D72E248BD1B1004D774E /* Main.storyboard */,
 				7AB4D731248BD1B2004D774E /* Assets.xcassets */,
 				7AB4D733248BD1B2004D774E /* LaunchScreen.storyboard */,
@@ -140,7 +168,11 @@
 			files = (
 				7AB4D72D248BD1B1004D774E /* ViewController.swift in Sources */,
 				7AB4D729248BD1B1004D774E /* AppDelegate.swift in Sources */,
+				7A4E3123248BE1D500841ECA /* Utilities.swift in Sources */,
+				7A4E311D248BD63F00841ECA /* SignUpViewController.swift in Sources */,
+				7A4E311F248BD65500841ECA /* LoginViewController.swift in Sources */,
 				7AB4D72B248BD1B1004D774E /* SceneDelegate.swift in Sources */,
+				7A4E3121248BD66000841ECA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
